@@ -1,0 +1,21 @@
+form {
+  text-align: center;
+  margin: 100px auto;
+}
+
+.grid {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}

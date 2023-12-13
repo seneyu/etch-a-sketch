@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="content">
+      <form id="form">
+        <label for="gridSizeInput">Choose a new width for your grid: </label>
+        <input
+          type="number"
+          name="gridSizeInput"
+          id="gridSizeInput"
+          min="10"
+          max="30"
+        />
+        <button type="submit">Submit</button>
+      </form>
+      <div class="container"></div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
